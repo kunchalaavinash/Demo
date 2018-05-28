@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Default suite]]">
+  <test name="Default test(failed)(failed)">
+    <classes>
+      <class name="practise.Mouse_Movement">
+        <methods>
+          <include name="mouse"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- practise.Mouse_Movement -->
+    </classes>
+  </test> <!-- Default test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Default suite]] -->

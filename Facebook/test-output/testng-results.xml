@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19810" started-at="2018-05-27T18:25:52Z" finished-at="2018-05-27T18:26:12Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19810" started-at="2018-05-27T18:25:52Z" finished-at="2018-05-27T18:26:12Z">
+      <class name="avi.Facebook">
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:avi.Facebook@1fbd92c]" name="openbrowser" is-config="true" duration-ms="19052" started-at="2018-05-27T23:55:52Z" finished-at="2018-05-27T23:56:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="dropdown()[pri:0, instance:avi.Facebook@1fbd92c]" name="dropdown" duration-ms="720" started-at="2018-05-27T23:56:11Z" finished-at="2018-05-27T23:56:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropdown -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:avi.Facebook@1fbd92c]" name="teardown" is-config="true" duration-ms="2" started-at="2018-05-27T23:56:12Z" finished-at="2018-05-27T23:56:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=dropdown status=SUCCESS method=Facebook.dropdown()[pri:0, instance:avi.Facebook@1fbd92c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- avi.Facebook -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
