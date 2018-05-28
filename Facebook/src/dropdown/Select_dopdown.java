@@ -12,11 +12,11 @@ public class Select_dopdown {
 		
          WebDriver driver;
          
-         System.setProperty("webdriver.chrome.driver", "F:\\chromedriver_win32\\chromedriver.exe");
+         System.setProperty("webdriver.gecko.driver", "F:\\geckodriver-v0.19.1-win32\\geckodriver.exe");
          
          System.out.println(System.getProperty("os.name"));
          
-         driver=new ChromeDriver();
+         driver=new FirefoxDriver();
          
          driver.manage().window().maximize();
          
